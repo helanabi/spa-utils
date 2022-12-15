@@ -3,7 +3,7 @@
 Usefull procedures that assist in front-end web development using plain JavaScript.
 
 This package currently provides two modules:
-* `cons.js`: exposing a single procedure `cons(...)`, that makes it possible to create UIs from nested elements with their attributes, event handlers, and more in a declarative manner (see Examples below).
+* `cons.js`: exposing a single procedure `cons(...)`, that makes it possible to create UIs from nested elements with their attributes, event handlers, and more in a declarative manner (see [Examples](#examples)).
 * `router.js`: exposes few procedures that enable client-side routing.
 
 ## Motivation
