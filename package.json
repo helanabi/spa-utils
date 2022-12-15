@@ -1,0 +1,12 @@
+{
+    "name": "spa-utils",
+    "version": "0.1.0",
+    "description": "Useful procedures for developing Single-page-applications",
+    "type": "module",
+    "keywords": [
+	"spa",
+	"frontend"
+    ],
+    "author": "Hassan El anabi (al-annabi.tech)",
+    "license": "MIT"
+}
