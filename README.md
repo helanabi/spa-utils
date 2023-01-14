@@ -19,19 +19,19 @@ SPA-utils are meant to make front-end web development as fun as it should be wit
 
 ``` javascript
 // Syntactic sugar for 'document.createElement("div")'
-cons("div")
+cons("div");
 
 // Adding attributes
 cons("input", {
     name: "username",
-	placeholder: "Enter your username",
-	required: ""
+    placeholder: "Enter your username",
+    required: ""
 });
 
 // Composing elements
 const navMenu = cons("ul",
                      cons("li", cons("a", { href: "/" }, "Home page")),
-					 cons("li", cons("a", { href: "/about"}, "About us")));
+                     cons("li", cons("a", { href: "/about"}, "About us")));
 
 // Adding Event handlers
 navMenu.append(
