@@ -1,3 +1,5 @@
+/* Copyright 2023 Hassan El anabi (al-annabi.tech) */
+
 export default function makeDict(defaultLanguage, translations) {
     let lang = localStorage.getItem("lang") ?? defaultLanguage;
 
